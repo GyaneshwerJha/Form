@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,200;0,300;1,200&family=Inter:wght@300&family=PT+Sans&family=Roboto+Mono&display=swap');
+
+body {
+    margin: 0;
+    padding-bottom: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    background-color: #85FFBD;
+
+}
+
+.form {
+    background-color: #12192c;
+    position: relative;
+    width: 60%;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+.section-heading img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+
+}
+
+.section-heading {
+    flex-direction: row;
+    display: flex;
+    color: white;
+}
+
+.section-heading span {
+    padding-left: 10px;
+    padding-top: 6px;
+}
+
+
+.inside-the-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 94%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #85FFBD;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    border: 2px solid #85FFBD;
+    color: white;
+    background-color: #17181c;
+}
+
+.table-option {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.table-property {
+    font-size: 1rem;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.custom-table {
+    border: 2px solid #85FFBD;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #85FFBD;
+    padding: 8px;
+}
+
+.small-text {
+    font-size: 0.8rem;
+    /* Adjust the desired font size */
+}
